@@ -5,8 +5,10 @@ var methodOverride = require("method-override");
 var logger = require("morgan");
 var cheerio = require("cheerio");
 var request = require("request");
+var mysql = require("mysql");
+var Sequelize = require("sequelize");
 
-var db = require("./database/models");
+var db = require("./models");
 
 var app = express();
 var PORT = process.env.PORT || 3000;
