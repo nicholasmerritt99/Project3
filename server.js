@@ -1,6 +1,10 @@
 require("dotenv").config();
 var express = require("express");
-var exphbs = require("express-handlebars");
+var bodyParser = require("body-parser");
+var methodOverride = require("method-override");
+var logger = require("morgan");
+var cheerio = require("cheerio");
+var request = require("request");
 
 var db = require("./models");
 
@@ -12,18 +16,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static("public"));
 
-// Handlebars
-app.engine(
-  "handlebars",
-  exphbs({
-    defaultLayout: "main"
-  })
-);
-app.set("view engine", "handlebars");
 
 // Routes
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/routes")(app);
+//require("./routes/htmlRoutes")(app);
 
 var syncOptions = { force: false };
 
