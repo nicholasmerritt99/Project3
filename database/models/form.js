@@ -8,6 +8,7 @@ module.exports = function (sequelize, Datatypes) {
       confirmPassword: Datatypes.STRING,
       address: Datatypes.STRING,
       city: Datatypes.STRING,
+      state: Datatypes, STRING,
       zipcode: Datatypes.STRING,
       details: {
         type: Datatypes.TEXT,
