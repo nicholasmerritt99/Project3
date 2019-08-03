@@ -5,8 +5,6 @@ var methodOverride = require("method-override");
 var logger = require("morgan");
 var cheerio = require("cheerio");
 var request = require("request");
-var mysql = require("mysql");
-var Sequelize = require("sequelize");
 
 var db = require("./models");
 
