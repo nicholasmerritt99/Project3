@@ -297,27 +297,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-	padding: 20px;
-}
-
-#calendar table {
-	width: 100%;
-}
-
-#calendar tbody td {
-	text-align: center;
-}
-
-#calendar #next {
-	text-align: right;
-}
-
 /* Three Column Footer Content */
 
 #footer-bg {
@@ -380,6 +359,18 @@ a:hover {
 	color: #383838;
 }
 
+#escape {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#get-away {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 .box1 {
 	overflow: hidden;
 	height: 300px;
@@ -425,10 +416,6 @@ a:hover {
 	background: none;
 }
 
-#escape {
-	text-align: center;
-}
-
 /* Banner */
 
 #banner {
@@ -462,19 +449,6 @@ a:hover {
 .box-style {
 	background: black;
 	text-align: center;
-}
-
-.box-style01
-{
-}
-
-
-.box-style02
-{
-}
-
-.box-style03
-{
 }
 
 
