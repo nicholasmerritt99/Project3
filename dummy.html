@@ -19,13 +19,23 @@
         <div id="welcome-wrapper">
             <div id="welcome" class="container">
                 <ul>
-                    <li class="current_page_item"><a href="#">Welcome</a></li>
+                    <li class="current_page_item"><a href="index.html">Welcome</a></li>
                 </ul>
             </div>
         </div>
         <div id="logo" class="container">
-            <h1><a href="#">dummie site</a></h1>
-            <p>Coming soon to a demo day near you.</p>
+            <div id="root"></div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+            <script type="text/babel">
+            class Greeting extends React.Component {
+                render() {
+                    return (<h1>Dummie Site</h1>);
+                }
+            }               
+            ReactDOM.render(<Greeting />, document.getElementById('root'));
+            </script>
         </div>
         <div id="page" class="container">
             <div>
@@ -38,10 +48,10 @@
             </div>
         </div>
     </div>
-    <div id="footer">
+    <div id="dummyfooter">
         <p> SMU Full Stack Coding Bootcamp Febuary 2019 Cohort</p>
         <div id="get-away">
-            <button id="get-away">Go</button>
+            <button>Go</button>
         </div>
     </div>
 
