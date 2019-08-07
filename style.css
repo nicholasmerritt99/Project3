@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.8em;
+	font-size: 28em;
 }
 
 h3 {
@@ -462,6 +462,10 @@ a:hover {
 	width: 384px;
 }
 
+.tbox4 {
+	text-align: center;
+}
+
 .box-style {
 	background: black;
 	text-align: center;
@@ -479,12 +483,26 @@ a:hover {
 	width: 324px;
 }
 
-.box-style .arrow {
-}
-
 .box-style .content {
 	overflow: hidden;
 	width: 324px;
+	padding: 30px;
+}
+
+.box-style0 {
+	background: black;
+	text-align: center;
+}
+
+.box-style0 h2 {
+	padding: 10px 0px;
+	letter-spacing: -1px;
+	font-size: 22px;
+	color: tan;
+}
+
+.box-style0 .content {
+	overflow: hidden;
 	padding: 30px;
 }
 
