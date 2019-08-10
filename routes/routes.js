@@ -1,6 +1,10 @@
 var path = require("path");
 const axios = require('axios');
 const cheerio = require('cheerio');
+var db = require("../models");
+var {
+  Op
+} = require("sequelize");
 
 
 
@@ -15,11 +19,6 @@ module.exports = function(app) {
 		res.sendFile(path.join(__dirname, "/../public/dummy.html"));
 	});
 
-<<<<<<< HEAD
-	
-};
-
-=======
 	app.get('/abuseshelter', function(req, res, next) {
 		const googleBaseUrl = 'https://maps.googleapis.com/maps/api/place/textsearch/json';
 		const googleSearches = ['abuse+shelters'];
@@ -48,6 +47,22 @@ module.exports = function(app) {
  		
 });
 
+app.post("/signup", function (req, res) {
+    db.shield
+      .create({
+        email: req.body.email,
+        password: req.body.password,
+        address: req.body.address,
+        address2: req.body.address2,
+        city: req.body.city,
+        state: req.body.state,
+        zipcode: req.body.zipcode,
+      })
+      .then(function (dbShield) {
+        console.log("\victim added to database\n");
+        res.json(dbShield);
+      });
+  });
+
 
 };
->>>>>>> master
