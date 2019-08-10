@@ -120,6 +120,8 @@ var API = {
     $submitBtn3.val("");
   };
 
+  
+
   // Add event listeners to the submit and delete buttons
 $submitBtn.on("click", handleFormSubmit);
 $submitBtn2.on("click", handleFormSubmit2);
