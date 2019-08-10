@@ -506,6 +506,14 @@ a:hover {
 	padding: 30px;
 }
 
+label {
+	float: left;
+	color: tan;
+}
+
+.formchecklabel {
+	float: left;
+}
 
 .divider {
 	overflow: hidden;
