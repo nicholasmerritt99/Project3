@@ -22,6 +22,7 @@ module.exports = function(app) {
 	app.get('/abuseshelter', function(req, res, next) {
 		const googleBaseUrl = 'https://maps.googleapis.com/maps/api/place/textsearch/json';
 		const googleSearches = ['abuse+shelters'];
+	// test and replace w sign up form ids and variables ** this already works w these variables.
 		const city = 'dallas';
 		const state = 'texas';
 		const searchTerm = googleSearches[0]
