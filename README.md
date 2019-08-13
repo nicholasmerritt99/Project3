@@ -1,16 +1,11 @@
 # mission: Rescue
 
-mission: rescue will be the victims abuse help site hidden in plain sight with the goal of providing real help and information to users.
+mission: <strong>rescue</strong> will be the victims abuse help site hidden in plain sight with the goal of providing real help and information to users.
 
 The users will access the site via a button which can be imbedded onto any website. 
 Upon access to the site, the user will be prompted with a login/sign up page.
 Once granted permission to the site various tabs of imformation are available for the user to explore.
 If the user feels uncomfortable or in danger of someone watching over their shoulder there is a double click escape where the user can double click anywhere on the window and the window will switch from our site to google and pinterest.
-
-![Alt text](https://i.ibb.co/tmqgLSm/Screen-Shot-2019-04-24-at-3-28-16-AM.png?raw=true)
-
-![Alt text](https://i.ibb.co/wz4SWFr/Screen-Shot-2019-04-24-at-4-06-40-AM.png?raw=true)
-
 
 ## Built With
 
@@ -18,10 +13,12 @@ If the user feels uncomfortable or in danger of someone watching over their shou
 
 ## Other Tech Used
 
+Animate.css
+jQuery doubleclick 
 
 ## Authors
 
-* **Sonal Patel** - *Initial work* - [Find Your Buzz](https://github.com/nicholasmerritt99/Project3)
+* **Sonal Patel** - *Initial work* - [mission:rescue](https://github.com/nicholasmerritt99/Project3)
 
 
 
