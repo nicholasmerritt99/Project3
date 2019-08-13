@@ -11,7 +11,47 @@ var {
 module.exports = function(app) {
 	
 	app.get("/abuse", function(req, res) {
-		res.sendFile(path.join(__dirname, "/../abuse.html"));
+		res.sendFile(path.join(__dirname, "/../public/abuse.html"));
+	});
+
+	app.get("/login", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/login.html"));
+	});
+
+	app.get("/home", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/dummy.html"));
+	});
+
+	app.get("/cause", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/cause.html"));
+	});
+
+	app.get("/abuse", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/abuse.html"));
+	});
+
+	app.get("/inhome", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/inhome.html"));
+	});
+
+	app.get("/outofhome", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/outofhome.html"));
+	});
+
+	app.get("/others", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/others.html"));
+	});
+
+	app.get("/minors", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/minors.html"));
+	});
+
+	app.get("/login", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/login.html"));
+	});
+
+	app.get("/signup", function(req, res) {
+		res.sendFile(path.join(__dirname, "/../public/signup.html"));
 	});
 
 	
@@ -43,10 +83,6 @@ module.exports = function(app) {
 	  });
 
 	  
-	  
-	app.get('/api/getSearchResults', (req, res) => {
- 		
-});
 
 app.post("/saveaccount", function (req, res) {
     db.shield
