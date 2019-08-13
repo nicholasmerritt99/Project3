@@ -1,6 +1,6 @@
 # mission: Rescue
 
-mission: rescue will be the victims abuse help site hidden in plain sight with the goal of providing real help and information to users.
+mission: <strong>rescue</strong> will be the victims abuse help site hidden in plain sight with the goal of providing real help and information to users.
 
 The users will access the site via a button which can be imbedded onto any website. 
 Upon access to the site, the user will be prompted with a login/sign up page.
