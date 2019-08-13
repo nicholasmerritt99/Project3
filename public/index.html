@@ -9,7 +9,8 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>dummy site</title>
     <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
-    <link href="assets/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="assets/animate.css" rel="stylesheet" type="text/css" media="screen" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -27,13 +28,6 @@
 
 <body>
     <div id="wrapper">
-        <div id="welcome-wrapper">
-            <div id="welcome" class="container">
-                <ul>
-                    <li class="current_page_item"><a href="/dummy">Welcome</a></li>
-                </ul>
-            </div>
-        </div>
         <div id="logo" class="container">
             <div id="root"></div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
@@ -42,7 +36,7 @@
             <script type="text/babel">
             class Greeting extends React.Component {
                 render() {
-                    return (<h1>Dummie Site</h1>);
+                    return (<h1>QUOTE OF THE DAY</h1>);
                 }
             }               
             ReactDOM.render(<Greeting />, document.getElementById('root'));
@@ -50,18 +44,15 @@
         </div>
         <div id="page" class="container">
             <div>
-                <div class="entry">
-                    <p>;afjrjgrjg ;jijg;jz odfjz ;jfsidjzd;igjig fjdrzgj; gj;zjf;AHgbna;n
-                        ;afjrjgrjg ;jijg;jz odfjz ;jfsidjzd;igjig fjdrzgj; gj;zjf;AHgbna;n
-                        ;afjrjgrjg ;jijg;jz odfjz ;jfsidjzd;igjig fjdrzgj; gj;zjf;AHgbna;n
-                    </p>
+                <div id="quote" class="entry">
+                    <p><h2 class="animated infinite pulse delay-1s">"a little bit of progress each day adds up to BIG results"</h2></p>
+                    <br><br><br><br><br><br><br><br><br>
                     <a href="/login"> <button  type="submit" class="btn btn-dark">m:e</button></a>
                 </div>
             </div>
         </div>
     </div>
     <div id="dummyfooter">
-        <p> SMU Full Stack Coding Bootcamp Febuary 2019 Cohort</p>
         <div id="get-away">
         </div>
     </div>
