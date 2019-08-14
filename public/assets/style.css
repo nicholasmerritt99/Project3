@@ -489,11 +489,17 @@ a:hover {
 	padding: 30px;
 }
 
-.box-style0 {
-	background: black;
+#titleix {
 	text-align: center;
 }
 
+.box-style0 {
+	background: black;
+	text-align: left;
+}
+strong {
+	color: tan;
+}
 .box-style0 h2 {
 	padding: 10px 0px;
 	letter-spacing: -1px;
