@@ -115,6 +115,13 @@ a:hover {
 	color: #3C342E;
 }
 
+.alert {
+	text-align: center;
+}
+
+#safetyAlert, p {
+	color: black;
+}
 /* Splash */
 
 #splash {
